@@ -21,4 +21,16 @@
 (7)	git init
 	初始化目录
 		
+创建项目的整个流程
+1. 在github上创建项目
+2. 使用git clone https://xxxxxxxxxx 克隆到本地
+3. 编辑项目
+4. git add . 将改动提交到暂存区
+5. git commit -m 提交说明
+6. git push origin master 将本地更改提交到远程分支
 
+
+如果github上的remote存在了文件会出现错误 应该先
+pull 一下 git pull origin master
+
+然后再 git push origin master
