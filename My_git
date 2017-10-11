@@ -1,0 +1,24 @@
+首先可以用 git help 查询简单命令
+
+(1)	git status
+	查看当前目录下的文件的状态。看是否已经提交给github管理。红色是没有提交给本地仓库
+
+(2)	git add.
+	点 是必须的 表示当前目录下的所有内容，本条令是将当前目录的所有文件交给 git 本地仓库管理
+
+(3)	git remote -v 
+	查看当前提交仓库的远程仓库的地址
+
+(4)	git push -u origin master
+	将本地的项目提交到远程仓库
+
+(5)	git remote add origin git@github.com:........
+	将本地项目和远程仓库进行链接
+
+(6)	git clone + URL
+	将该URL的项目克隆到本地	
+
+(7)	git init
+	初始化目录
+		
+

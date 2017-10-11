@@ -1,0 +1,18 @@
+一	安装
+sudo apt-get install -y mysql-server
+二	查看版本
+mysql -V (大写的V)
+三	启动服务
+sudo service mysql start
+四	登录mysql
+mysql -u root -p
+注：mysql -u +用户名 -p +密码
+
+
+
+使用
+新建数据库        create database +数据库名称;
+删除数据集库      drop database   +数据库名称;
+查看数据库        show database;    (注：分号不能省)	
+
+
